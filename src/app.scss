@@ -1,0 +1,34 @@
+.app {
+  //background-image: url("/images/trello-bg.png");
+  background-color: #0079bf;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+
+  .app-title {
+    font-size: 20px;
+  }
+
+  .all-lists-holder {
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 8px;
+
+    &::-webkit-scrollbar {
+      height: 24px;
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background-color: #66a3c7;
+      border: 8px solid #0079bf;
+      border-top-width: 0;
+    }
+  }
+}

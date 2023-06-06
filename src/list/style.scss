@@ -1,0 +1,36 @@
+.list-container {
+    background-color: #e2e4e6;
+    max-height: calc(100vh - 11.8rem);
+    border-radius: 0.3rem;
+    display: flex;
+    width: 270px;
+    min-width: 270px;
+    flex-direction: column;
+    align-self: flex-start;
+
+    .list-title {
+        font-size: 14px;
+        font-weight: 700;
+        color: #333;
+        padding: 10px;
+    }
+
+    .list-items {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        justify-content: flex-start;
+        padding: 0 6px 5px;
+        overflow-y: auto;
+    }
+
+    .add-card {
+        display: block;
+        font-size: 14px;
+        font-weight: 400;
+        color: #838c91;
+        padding: 10px;
+        text-align: left;
+        cursor: pointer;
+    }
+}
